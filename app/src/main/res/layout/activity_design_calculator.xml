@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainRedBox"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    tools:context="com.primetechbd.guideline.DesignCalculator">
+
+    <LinearLayout
+        android:id="@+id/bigGreenBox"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#000000"
+        android:layout_margin="30dp"
+        android:padding="30dp"
+        android:layout_weight="3">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:layout_weight="14">
+        </EditText>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            android:text="x"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bigBlueBox"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:background="#000000"
+        android:layout_weight="7"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp">
+
+        <LinearLayout
+            android:id="@+id/orangBox1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:background="#000000"
+            android:orientation="vertical"
+            tools:ignore="Suspicious0dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:layout_margin="2dp"
+                style="@style/gangamstyle"
+                android:text="sin" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:layout_margin="2dp"
+                style="@style/gangamstyle"
+                android:text="cos" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:layout_margin="2dp"
+                style="@style/gangamstyle"
+                android:text="tan" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:layout_margin="2dp"
+                style="@style/gangamstyle"
+                android:text="π" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:layout_margin="2dp"
+                style="@style/gangamstyle"
+                android:text="!" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/orangBox2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#000000"
+            android:layout_weight="5"
+            tools:ignore="Suspicious0dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:layout_margin="2dp"
+                style="@style/gangamstyle"
+                android:text="In" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:layout_margin="2dp"
+                style="@style/gangamstyle"
+                android:text="log" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:layout_margin="2dp"
+                style="@style/gangamstyle"
+                android:text="e" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:layout_margin="2dp"
+                style="@style/gangamstyle"
+                android:text="^" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:layout_margin="2dp"
+                style="@style/gangamstyle"
+                android:text="√" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/blackBox"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#000"
+            android:layout_weight="21"
+            tools:ignore="Suspicious0dp"
+            android:layout_marginLeft="30dp">
+
+            <LinearLayout
+                android:id="@+id/greenBox1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    style="@style/gangamstyleLight"
+                    android:text="7" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    style="@style/gangamstyleLight"
+                    android:text="8" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    style="@style/gangamstyleLight"
+                    android:text="9" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    style="@style/gangamstyle2"
+                    android:text="÷" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    style="@style/gangamstyle2"
+                    android:text="(" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/greenBox2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    style="@style/gangamstyleLight"
+                    android:text="4" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    style="@style/gangamstyleLight"
+                    android:text="5" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    style="@style/gangamstyleLight"
+                    android:text="6" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    style="@style/gangamstyle2"
+                    android:text="x" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    style="@style/gangamstyle2"
+                    android:text=")" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/blueBox"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="#000000"
+                android:layout_weight="2"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/redBox"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:background="#000000"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:id="@+id/greenBox3"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.5"
+                        android:background="#000000"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_margin="2dp"
+                            style="@style/gangamstyleLight"
+                            android:text="1"/>
+
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_margin="2dp"
+                            style="@style/gangamstyleLight"
+                            android:text="2"/>
+
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_margin="2dp"
+                            style="@style/gangamstyleLight"
+                            android:text="3"/>
+
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_margin="2dp"
+                            style="@style/gangamstyle2"
+                            android:text="-"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/greenBox4"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.5"
+                        android:background="#000000"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:layout_margin="2dp"
+                            style="@style/gangamstyleLight"
+                            android:text="0"/>
+
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_margin="2dp"
+                            style="@style/gangamstyleLight"
+                            android:text="."/>
+
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            style="@style/gangamstyle2"
+                            android:text="+"/>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    style="@style/gangamstyle2"
+                    android:text="="/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

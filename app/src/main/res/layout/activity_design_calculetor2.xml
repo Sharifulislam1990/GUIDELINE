@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.primetechbd.guideline.DesignCalculetor2">
+
+    <fragment
+        android:id="@+id/Frag_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout="@layout/fragment_input"
+        android:name="com.primetechbd.guideline.DisplayFragment"
+        tools:layout="@layout/fragment_display"
+        />
+
+    <fragment
+        android:id="@+id/Frag_input"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.primetechbd.guideline.DisplayFragment"
+        android:layout="@layout/fragment_input"
+        android:layout_below="@+id/Frag_display"
+        tools:layout="@layout/fragment_input" />
+
+</RelativeLayout>
